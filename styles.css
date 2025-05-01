@@ -1,1 +1,116 @@
 /* your code here */
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            padding: 40px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 1200px;
+            margin: 50px auto;
+            border-radius: 10px;
+        }
+
+        .product__photo {
+            flex: 1;
+        }
+
+        .photo-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+.photo-main img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .photo-album ul {
+            display: flex;
+            gap: 10px;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .photo-album ul li img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 5px;
+            cursor: pointer;
+            border: 2px solid #ccc;
+        }
+
+        .photo-album ul li img:hover {
+            border-color: #555;
+        }
+ .product__info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .price h2 {
+            color: #e60023;
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        .variant h3 {
+            margin-bottom: 10px;
+        }
+
+        .variant ul {
+            display: flex;
+            gap: 10px;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .variant ul li img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+            cursor: pointer;
+            border: 2px solid #ccc;
+        }
+  .variant ul li img:hover {
+            border-color: #e60023;
+        }
+
+        .description h3 {
+            margin-bottom: 10px;
+        }
+
+        .description p {
+            line-height: 1.5;
+        }
+
+        .add-to-cart button {
+            padding: 15px 30px;
+            background-color: #e60023;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            width: fit-content;
+        }
+
+        .add-to-cart button:hover {
+            background-color: #c4001a;
+        }
+
